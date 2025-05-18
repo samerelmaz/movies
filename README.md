@@ -7,7 +7,7 @@ Esta es una app construida con React (Vite), para ver listado de peliculas exist
 Este code challenge cumple todos los requerimientos de la app, pero hay un par de puntos que es importante explicar:
 
 - No conseguí ninguna API pública que retorne 2000 elementos de golpe. Absolutamente todas están paginadas (con sentido). Asi que para renderizar los 2000 elementos solicitados, no tuve otra opción que implementar infinite scrolling. Así que los 2000 elementos no se van a renderizar de golpe, sino luego de hacer scroll varias veces.
-- Estoy usando una API llamada TMDB (The Movie Database), la cual da error de CORS si se le manda algun custom header en el request de Preflight (para chequear CORS). Asi que el código que añade el token al request está implementado, pero comentado para evitar este error. Esto se puede encontrar en `src/api/tmdb`, línea 27.
+- Estoy usando una API llamada TMDB (The Movie Database), la cual da error de CORS si se le manda algun custom header en el request de Preflight (para chequear CORS). Asi que el código que añade el token de login al request está implementado, pero comentado para evitar este error. Esto se puede encontrar en `src/api/tmdb`, línea 27.
 - El API key para la API de TMDB está hardcodeado en el código para facilitar el review de esta prueba, pero normalmente se guardaría en un archivo .env
 
 ## Explicación general de las decisiones técnicas
