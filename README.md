@@ -86,13 +86,13 @@ movies/
 └── ...                    # Configuration files
 ```
 
-### Styling
+### Estilos
 
-- **CSS Variables**: Para mantenerlo simple, decidí usar variables de CSS como definición para el "theme" de la app. Esto se puede encontrar en el archivo `styles.css`
-- **CSS Modules**: CSS Modular, para evitar conflictos de estilo
-- **Responsive Design**: Todos los componentes son responsive
+- **Variables de CSS**: Para mantenerlo simple, decidí usar variables de CSS como definición para el "theme" de la app. Esto se puede encontrar en el archivo `styles.css`
+- **CSS Modular**: CSS Modular, para evitar conflictos de estilo
+- **Diseño responsive**: Todos los componentes son responsive
 
-### TMDB API Integration
+### Integración con API pública de TMDB
 
 - **Limitaciones**:
   - 20 items por página máximo
